@@ -1,0 +1,236 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+header {
+    background-color: e0f7fa;
+    color: blue;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    color: blue;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.contact-button {
+    background-color: #7d5fff;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/* Intro Section */
+.intro {
+    padding: 50px;
+    background-color: #f0f4f8;
+    text-align: center;
+    position: relative;
+}
+
+.intro h1 {
+    font-size: 36px;
+    margin: 0;
+    color: #333;
+}
+
+.intro p {
+    font-size: 18px;
+    color: #666;
+    margin: 10px 0 20px;
+}
+
+.intro button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #7d5fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.intro-image {
+    max-width: 250px;
+    position: absolute;
+    right: 10%;
+    top: 30px;
+}
+
+/* Skills Section */
+.skills {
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.skills h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.skill-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skill-card {
+    width: 200px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+.skill-icon {
+    font-size: 40px;
+    color: #7d5fff;
+    margin-bottom: 10px;
+}
+
+.skill-card h3 {
+    font-size: 20px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.skill-card p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Portfolio Section */
+.portfolio {
+    padding: 50px;
+    background-color: #f0f4f8;
+    text-align: center;
+}
+
+.portfolio h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.portfolio-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.portfolio-card {
+    width: 200px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+.portfolio-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.portfolio-card h3 {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+.testimonial-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.testimonial-card {
+    width: 200px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    text-align: center;
+}
+
+.testimonial-card p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px;
+    background-color: #f0f4f8;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact input, .contact textarea {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact button {
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #7d5fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 20px;
+}
